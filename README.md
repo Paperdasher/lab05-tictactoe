@@ -8,7 +8,7 @@ Test each function individually to debug easier, and ensure each algorithm/code 
 ```
 createBoard(n)- Creates a n*n board.
 userInput()- Takes user input of where they would like to place next mark. If invalid slot, ask user again.
-computerChoose()- Randomly chooses empty slot to mark.
+computerChoose(board)- Randomly chooses empty slot to mark.
 checkWin(board, player)- Checks board to see if either player has won
 isBoardFull(board)- Checks if board is full(i.e. draw)
 printBoard(board)- Prints full board, used after every turn
